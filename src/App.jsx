@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Authority from "./Authority";
 
-const API = "http://localhost:8081/api/complaints";
+const API = "https://safestep-backend-8sq5.onrender.com/api/complaints";
 const STEPS = ["SUBMITTED", "UNDER_REVIEW", "RESOLVED"];
 const STEP_LABELS = ["Received", "Under review", "Resolved"];
 
